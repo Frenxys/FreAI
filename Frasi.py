@@ -2,7 +2,7 @@ import os
 import openai
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 print("testo:")
 testo=input()
 response = openai.Completion.create(
