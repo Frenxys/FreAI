@@ -2,7 +2,7 @@ import os
 import openai
 import urllib.request
 from PIL import Image
-openai.api_key = "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"
+openai.api_key = "API-KEY"
 print("immagine:")
 immagine=input()
 response = openai.Image.create(
